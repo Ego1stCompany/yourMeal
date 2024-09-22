@@ -1,0 +1,19 @@
+@import "../../scss/main.scss";
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__title {
+    font-size: $fz_40;
+    font-weight: $semiBold;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 410px;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../scss/main.scss";
+
+.product {
+  display: grid;
+  grid-template-columns: 64px 1fr 84px;
+  grid-template-rows: 52px;
+  align-items: center;
+  gap: 5px;
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  &__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+
+    &_header {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    &_name {
+      font-size: $fz_12;
+      font-weight: $regular;
+    }
+
+    &_span {
+      color: $gray__middle;
+      font-size: $fz_12;
+      font-weight: $regular;
+    }
+  }
+
+  &__price {
+    font-size: $fz_12;
+    font-weight: $regular;
+  }
+}

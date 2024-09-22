@@ -1,0 +1,13 @@
+@import "../../scss/main.scss";
+
+.main {
+  margin-top: 50px;
+}
+
+.container {
+  @include container;
+
+  display: grid;
+  grid-template-columns: 300px 960px;
+  gap: 30px;
+}

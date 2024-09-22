@@ -1,0 +1,12 @@
+@import "../../scss/main.scss";
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__link {
+    color: $black;
+    font-weight: $regular;
+  }
+}

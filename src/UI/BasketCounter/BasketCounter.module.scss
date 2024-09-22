@@ -1,0 +1,9 @@
+@import "../../scss/main.scss";
+
+.counter {
+  background-color: $gray__light;
+  padding: 2px 16px;
+  border-radius: 6px;
+  font-size: $fz_12;
+  font-weight: $regular;
+}

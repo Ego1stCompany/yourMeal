@@ -1,0 +1,34 @@
+@import "../../scss/main.scss";
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 50px;
+  background-color: $white;
+  border: 1px solid white;
+  transition: 0.5s ease-in-out;
+
+  &__active {
+    background-color: $orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 50px;
+  }
+
+  &__text {
+    color:$black;
+    font-weight: $regular;
+  }
+
+  &:hover {
+    transition: 0.5s ease-in-out;
+    color: $white;
+    border: 1px solid $orange;
+  }
+}

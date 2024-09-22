@@ -1,0 +1,16 @@
+@import "../../scss/main.scss";
+
+.order {
+  background-color: $orange;
+  height: 40px;
+  border-radius: 12px;
+  color: $white;
+  font-weight: $regular;
+  transition: 0.5s ease-in-out;
+
+  &:hover {
+    color: $black;
+    transition: 0.5s ease-in-out;
+    background-color: $gray__light;
+  }
+}

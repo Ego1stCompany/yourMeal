@@ -1,0 +1,24 @@
+@import "../../scss/main.scss";
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 180px;
+  overflow: auto;
+  padding: 2px;
+  position: relative;
+}
+
+.list::-webkit-scrollbar {
+  width: 2px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: $gray;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: $orange;
+  border-radius: 10px;
+}

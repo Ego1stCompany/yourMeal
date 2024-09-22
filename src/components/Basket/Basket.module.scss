@@ -1,0 +1,14 @@
+@import "../../scss/main.scss";
+
+.basket {
+  background-color: $white;
+  padding: 16px;
+  border-radius: 12px;
+  height: max-content;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

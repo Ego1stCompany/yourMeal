@@ -1,0 +1,11 @@
+@import "../../scss/main.scss";
+
+.counter {
+  background-color: $gray__light;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 12px;
+  border-radius: 12px;
+  font-weight: $regular;
+}
