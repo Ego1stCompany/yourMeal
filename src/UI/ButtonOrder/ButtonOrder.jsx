@@ -1,9 +1,9 @@
-import React from 'react';
 import styles from './ButtonOrder.module.scss';
 
-const ButtonOrder = () => {
+// eslint-disable-next-line react/prop-types
+const ButtonOrder = ({text,func}) => {
     return (
-        <button className={styles.order}>Оформить заказ</button>
+        <button className={styles.order} onClick={func}>{text}</button>
     );
 };
 

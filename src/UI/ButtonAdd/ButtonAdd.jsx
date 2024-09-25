@@ -1,9 +1,15 @@
-import React from 'react';
 import styles from './ButtonAdd.module.scss';
+import {useDispatch} from "react-redux";
+import {fetchGetProduct} from "../../utils/Api.js";
 
-const ButtonAdd = () => {
+
+// eslint-disable-next-line react/prop-types
+const ButtonAdd = ({id}) => {
+
+    const dispatch = useDispatch();
+
     return (
-        <button className={styles.add}>Добавить</button>
+        <button className={styles.add} onClick={() =>  dispatch(fetchGetProduct(id))}>Добавить</button>
     );
 };
 

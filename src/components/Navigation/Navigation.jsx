@@ -11,13 +11,14 @@ import WokIcon from "../../assets/wok.svg?react";
 import DessertIcon from "../../assets/dessert.svg?react";
 import SaucesIcon from "../../assets/sauce.svg?react";
 
+
 const Navigation = () => {
 
     const navigationCategoryArray = [
         {
             id: 1,
             name: 'Бургеры',
-            link: '/burgers',
+            link: '/',
             component: <BurgerIcon/>
         },
         {

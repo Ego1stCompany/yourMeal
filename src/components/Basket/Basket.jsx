@@ -4,7 +4,9 @@ import BasketFooter from "../BasketFooter/BasketFooter.jsx";
 import BasketHeader from "../BasketHeader/BasketHeader.jsx";
 
 
+
 const Basket = () => {
+
     return (
         <div className={styles.basket}>
             <div className={styles.basket__content}>
