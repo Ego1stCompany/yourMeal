@@ -5,124 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aad7dc34-5d8f-4360-86dc-2ab436e5c6a1" name="Changes" comment="version 0.1">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/logo-footer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketCounter/BasketCounter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketCounter/BasketCounter.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketCounter/BasketCounter.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketCounter/BasketCounter.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketResult/BasketResult.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketResult/BasketResult.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketResult/BasketResult.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/BasketResult/BasketResult.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonAdd/ButtonAdd.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonAdd/ButtonAdd.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonAdd/ButtonAdd.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonAdd/ButtonAdd.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonCounter/ButtonCounter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonCounter/ButtonCounter.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonCounter/ButtonCounter.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonCounter/ButtonCounter.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonOrder/ButtonOrder.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonOrder/ButtonOrder.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonOrder/ButtonOrder.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonOrder/ButtonOrder.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonPhone/ButtonPhone.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonPhone/ButtonPhone.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonPhone/ButtonPhone.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/ButtonPhone/ButtonPhone.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UI/Logo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/combo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/delivery.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/dessert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/hots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/pizza.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/sauce.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/shawarma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/snack.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/tg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/assets/wok.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Basket/Basket.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Basket/Basket.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Basket/Basket.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Basket/Basket.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketFooter/BasketFooter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketFooter/BasketFooter.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketFooter/BasketFooter.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketFooter/BasketFooter.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketHeader/BasketHeader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketHeader/BasketHeader.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketHeader/BasketHeader.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketHeader/BasketHeader.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketItem/BasketItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketItem/BasketItem.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketItem/BasketItem.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketItem/BasketItem.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketList/BasketList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketList/BasketList.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketList/BasketList.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/BasketList/BasketList.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Card/Card.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Card/Card.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Card/Card.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Card/Card.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Footer/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Footer/Footer.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Footer/Footer.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Footer/Footer.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Header/Header.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Header/Header.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Header/Header.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/Navigation.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/Navigation.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/Navigation.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Navigation/Navigation.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/NavigationCategory/NavigationCategory.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/NavigationCategory/NavigationCategory.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/NavigationCategory/NavigationCategory.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/NavigationCategory/NavigationCategory.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/Layout/Layout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/Layout/Layout.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/Layout/Layout.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/Layout/Layout.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/MainPage/MainPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/MainPage/MainPage.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/MainPage/MainPage.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/MainPage/MainPage.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/colors.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/fonts.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/mixins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/mixins.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/reset.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/scss/reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/store/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/utils/routesApp.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vite.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/donut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormOrder/FormOrder.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormOrder/FormOrder.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/basketSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/productSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo-footer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo-footer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/BasketCounter/BasketCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/BasketCounter/BasketCounter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/BasketCounter/BasketCounter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/BasketCounter/BasketCounter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/BasketCounter/BasketCounter.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/BasketCounter/BasketCounter.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/BasketResult/BasketResult.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/BasketResult/BasketResult.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/BasketResult/BasketResult.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/BasketResult/BasketResult.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/BasketResult/BasketResult.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/BasketResult/BasketResult.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonAdd/ButtonAdd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonAdd/ButtonAdd.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonAdd/ButtonAdd.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonAdd/ButtonAdd.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonAdd/ButtonAdd.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonAdd/ButtonAdd.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonCounter/ButtonCounter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonCounter/ButtonCounter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonCounter/ButtonCounter.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonCounter/ButtonCounter.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonOrder/ButtonOrder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonOrder/ButtonOrder.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonOrder/ButtonOrder.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonOrder/ButtonOrder.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonOrder/ButtonOrder.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonOrder/ButtonOrder.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonPhone/ButtonPhone.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonPhone/ButtonPhone.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ButtonPhone/ButtonPhone.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonPhone/ButtonPhone.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Basket/Basket.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Basket/Basket.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketFooter/BasketFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketFooter/BasketFooter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketFooter/BasketFooter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketFooter/BasketFooter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketFooter/BasketFooter.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketFooter/BasketFooter.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketHeader/BasketHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketHeader/BasketHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketHeader/BasketHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketHeader/BasketHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketHeader/BasketHeader.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketHeader/BasketHeader.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketList/BasketList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketList/BasketList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketList/BasketList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketList/BasketList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketList/BasketList.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketList/BasketList.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BasketList/BasketList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketList/BasketList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationCategory/NavigationCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationCategory/NavigationCategory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationCategory/NavigationCategory.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationCategory/NavigationCategory.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationCategory/NavigationCategory.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationCategory/NavigationCategory.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Layout.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Layout.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/routesApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/routesApp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,16 +82,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="JSX File" />
         <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
         <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -151,38 +101,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JS/Progects/yourMeal&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.productSlice.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "developner",
+    "last_opened_file_path": "D:/JS/Progects/yourMeal/src/assets",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JS\Progects\yourMeal\src\assets" />
       <recent name="D:\JS\Progects\yourMeal\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JS\Progects\yourMeal\src\assets" />
       <recent name="D:\JS\Progects\yourMeal\src\components\Footer" />
       <recent name="D:\JS\Progects\yourMeal\src\UI\ButtonPhone" />
       <recent name="D:\JS\Progects\yourMeal\src\UI\ButtonOrder" />
       <recent name="D:\JS\Progects\yourMeal\src\UI\ButtonCounter" />
-      <recent name="D:\JS\Progects\yourMeal\src\UI\ButtonAdd" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="productSlice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/store/productSlice.js" working-dir="$PROJECT_DIR$/src/store">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -196,6 +150,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.productSlice.js" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +172,8 @@
       <workItem from="1726938350188" duration="14471000" />
       <workItem from="1726998310770" duration="21934000" />
       <workItem from="1727121369756" duration="51000" />
+      <workItem from="1727207627323" duration="5624000" />
+      <workItem from="1727280060901" duration="14332000" />
     </task>
     <task id="LOCAL-00001" summary="version 0.1">
       <option name="closed" value="true" />
@@ -226,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727036591430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 0.1">
+      <option name="closed" value="true" />
+      <created>1727207842973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727207842973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

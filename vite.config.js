@@ -15,6 +15,4 @@ export default defineConfig({
             },
         },
     },
-    base:"/burgers"
-
 })

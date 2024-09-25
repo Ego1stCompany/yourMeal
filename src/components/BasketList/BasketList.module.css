@@ -10,6 +10,10 @@ html {
   background-color: #F9F9F9;
 }
 
+body {
+  position: relative;
+}
+
 *,
 *::before,
 *::after {
@@ -97,7 +101,7 @@ legend {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: 180px;
+  max-height: 180px;
   overflow: auto;
   padding: 2px;
   position: relative;
@@ -114,6 +118,10 @@ legend {
 .list::-webkit-scrollbar-thumb {
   background: #FF7020;
   border-radius: 10px;
+}
+
+.text {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=BasketList.module.css.map */

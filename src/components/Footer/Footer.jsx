@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Footer.module.scss';
 import ButtonPhone from "../../UI/ButtonPhone/ButtonPhone.jsx";
 
-import LogoIcon from '../../../public/logo-footer.svg?react'
+import LogoIcon from '../../assets/logo-footer.svg?react'
 import VkIcon from '../../assets/vk.svg?react'
 import TgIcon from '../../assets/tg.svg?react'
 

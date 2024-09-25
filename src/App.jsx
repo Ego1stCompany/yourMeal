@@ -4,10 +4,16 @@ import Footer from "./components/Footer/Footer.jsx";
 import {routesApp} from "./utils/routesApp.jsx";
 import Navigation from "./components/Navigation/Navigation.jsx";
 import MainPage from "./pages/MainPage/MainPage.jsx";
+import FormOrder from "./components/FormOrder/FormOrder.jsx";
+import {useSelector} from "react-redux";
 
 const App = () => {
+
+    const {order} = useSelector(state => state.basket);
+
     return (
         <>
+            {order === true ? <FormOrder/> : ""}
             <Header/>
             <Navigation/>
             <MainPage>
@@ -21,7 +27,7 @@ const App = () => {
             </MainPage>
             <Footer/>
         </>
-    );
+    )
 };
 
 export default App;

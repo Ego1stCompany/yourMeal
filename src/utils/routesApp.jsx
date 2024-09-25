@@ -3,7 +3,7 @@ import Layout from "../pages/Layout/Layout.jsx";
 export const routesApp = [
     {
         id: 1,
-        path: "/burgers",
+        path: "/",
         element: <Layout title={'Бургеры'}/>
     },
     {

@@ -10,6 +10,10 @@ html {
   background-color: #F9F9F9;
 }
 
+body {
+  position: relative;
+}
+
 *,
 *::before,
 *::after {
