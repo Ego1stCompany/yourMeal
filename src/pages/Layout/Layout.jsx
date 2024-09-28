@@ -18,19 +18,23 @@ const Layout = ({title}) => {
         <div className={styles.layout}>
             <h1 className={styles.layout__title}>{title}</h1>
 
-            <div className={styles.layout__list}>
-                {
-                    products.map(item =>
-                        <Card
-                            key={item.id}
-                            id={item.id}
-                            gram={item.gram}
-                            name={item.name}
-                            price={item.price}
-                            imageUrl={item.imageUrl}
-                        />)
-                }
-            </div>
+            {
+                products.length > 0 ?
+                    <div className={styles.layout__list}>
+                        {
+                            products.map(item =>
+                                <Card
+                                    key={item.id}
+                                    id={item.id}
+                                    gram={item.gram}
+                                    name={item.name}
+                                    price={item.price}
+                                    imageUrl={item.imageUrl}
+                                />)
+                        }
+                    </div>
+                    :  <p>Скоро добавим :)</p>
+            }
         </div>
     );
 };
