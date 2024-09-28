@@ -2,7 +2,7 @@ import styles from './BasketItem.module.scss'
 import ButtonCounter from "../../UI/ButtonCounter/ButtonCounter.jsx";
 
 // eslint-disable-next-line react/prop-types
-const BasketItem = ({name, price, gram, imageUrl}) => {
+const BasketItem = ({name, price, gram, imageUrl, count,id}) => {
 
     return (
         <article className={styles.product}>
@@ -17,7 +17,7 @@ const BasketItem = ({name, price, gram, imageUrl}) => {
                 <span className={styles.product__price}>{price}₽</span>
             </div>
 
-            <ButtonCounter/>
+            <ButtonCounter count={count} id={id}/>
         </article>
     );
 };

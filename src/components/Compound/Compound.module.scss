@@ -1,0 +1,29 @@
+@import "../../scss/main.scss";
+
+.compound {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  &__title {
+    font-size: $fz_12;
+    font-weight: $semiBold;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  &__item {
+    font-size: $fz_12;
+    font-weight: $regular;
+  }
+
+  &__gram {
+    font-size: $fz_12;
+    font-weight: $regular;
+    color: $gray__middle;
+  }
+}

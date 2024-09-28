@@ -19,11 +19,22 @@ const basketSlice = createSlice({
         removeActiveOrder: (state) => {
             state.order = !state.order
         },
-        basketCounter(state, action) {
-            state.counter = action.payload.length;
+        basketCounter(state) {
+            state.counter = state.basket.reduce((current, product) => current + product.count, 0);
         },
         basketResult(state, action) {
-            state.result = action.payload.reduce((current, product) => current + product.price, 0);
+            state.result = action.payload.reduce((current, product) => current + (product.price * product.count), 0);
+        },
+        addCountProduct: (state, action) => {
+            state.basket.filter(item => item.id === action.payload.id ? item.count++ : item.count)
+        },
+        removeCountProduct: (state, action) => {
+
+            state.basket.filter(item => {
+                if (item.id === action.payload.id) item.count--
+
+                item.count <= 0 ? state.basket = state.basket.filter(item => item.id !== action.payload.id) : ''
+            })
         }
     },
     extraReducers: (builder) => {
@@ -32,11 +43,22 @@ const basketSlice = createSlice({
                 state.basket = action.payload;
             })
             .addCase(fetchGetProduct.fulfilled, (state, action) => {
-                state.basket.push(action.payload[0]);
+                const checkBucket = state.basket.filter(item => item.id === action.payload[0].id);
+
+                checkBucket.length === 0 ? state.basket.push({...action.payload[0], count: 1})
+                    :
+                    state.basket.filter(item => item.id === action.payload[0].id ? item.count++ : item.count)
             })
     }
 })
 
-export const {basketCounter, basketResult, addActiveOrder, removeActiveOrder} = basketSlice.actions;
+export const {
+    basketCounter,
+    basketResult,
+    addActiveOrder,
+    removeActiveOrder,
+    addCountProduct,
+    removeCountProduct,
+} = basketSlice.actions;
 
 export default basketSlice.reducer

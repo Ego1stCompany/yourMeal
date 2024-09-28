@@ -1,0 +1,22 @@
+@import "../../scss/main.scss";
+
+.close {
+  width: 24px;
+  height: 1px;
+  background-color: $gray__middle;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:before {
+    content: '';
+    width: 24px;
+    height: 1px;
+    background-color: $gray__middle;
+    border-radius: 1px;
+    transform: rotate(-90deg);
+  }
+}

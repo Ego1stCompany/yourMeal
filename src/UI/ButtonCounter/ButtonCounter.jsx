@@ -1,11 +1,17 @@
 import styles from './ButtonCounter.module.scss'
+import {useDispatch} from "react-redux";
+import {addCountProduct, removeCountProduct} from "../../store/basketSlice.js";
 
-const ButtonCounter = () => {
+// eslint-disable-next-line react/prop-types
+const ButtonCounter = ({count, id}) => {
+
+    const dispatch = useDispatch()
+
     return (
         <div className={styles.counter}>
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
+            <button onClick={() => dispatch(removeCountProduct({id}))}>-</button>
+            <span>{count || 1}</span>
+            <button onClick={() => dispatch(addCountProduct({id}))}>+</button>
         </div>
     );
 };

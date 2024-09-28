@@ -42,3 +42,17 @@ export const fetchGetProduct = createAsyncThunk(
     }
 )
 
+export const fetchGetProductInformation = createAsyncThunk(
+    'fetchGetProductInformation',
+    async (id) => {
+        try {
+            const response = await fetchURL(`/products?id=${id}`);
+            return await response.json();
+        }
+        catch (e) {
+            console.log(e)
+        }
+    }
+)
+
+

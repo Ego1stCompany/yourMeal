@@ -14,15 +14,18 @@ const BasketList = () => {
         dispatch(fetchBasket())
     }, [dispatch])
 
+
     const addBasketList = () => {
         if (basket.length > 0) {
             return basket.map((item,index) =>
                 <BasketItem
                     key={index}
+                    id={item.id}
                     gram={item.gram}
                     name={item.name}
                     price={item.price}
                     imageUrl={item.imageUrl}
+                    count={item.count}
                 />)
         }
 

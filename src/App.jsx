@@ -6,13 +6,16 @@ import Navigation from "./components/Navigation/Navigation.jsx";
 import MainPage from "./pages/MainPage/MainPage.jsx";
 import FormOrder from "./components/FormOrder/FormOrder.jsx";
 import {useSelector} from "react-redux";
+import ProductInformation from "./components/ProductInformation/ProductInformation.jsx";
 
 const App = () => {
 
     const {order} = useSelector(state => state.basket);
+    const {active} = useSelector(state => state.products);
 
     return (
         <>
+            {active === true ? <ProductInformation/> : ""}
             {order === true ? <FormOrder/> : ""}
             <Header/>
             <Navigation/>
