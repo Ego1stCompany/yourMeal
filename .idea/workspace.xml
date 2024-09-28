@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad7dc34-5d8f-4360-86dc-2ab436e5c6a1" name="Changes" comment="version 0.3 add form order">
-      <change afterPath="$PROJECT_DIR$/src/UI/ButtonClose/ButtonClose.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/ButtonClose/ButtonClose.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Compound/Compound.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Compound/Compound.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Description/Description.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Description/Description.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductInformation/ProductInformation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductInformation/ProductInformation.module.scss" afterDir="false" />
+    <list default="true" id="aad7dc34-5d8f-4360-86dc-2ab436e5c6a1" name="Changes" comment="version 0.4 add information product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/ButtonCounter/ButtonCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/ButtonCounter/ButtonCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketItem/BasketItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BasketList/BasketList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BasketList/BasketList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/basketSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/basketSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/productSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/productSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Layout.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +111,7 @@
       <workItem from="1727280060901" duration="14748000" />
       <workItem from="1727369319577" duration="7613000" />
       <workItem from="1727385299875" duration="180000" />
-      <workItem from="1727531018228" duration="18926000" />
+      <workItem from="1727531018228" duration="19721000" />
     </task>
     <task id="LOCAL-00001" summary="version 0.1">
       <option name="closed" value="true" />
@@ -163,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727385350383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="version 0.4 add information product">
+      <option name="closed" value="true" />
+      <created>1727558595033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727558595033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +174,7 @@
     <MESSAGE value="version 0.1" />
     <MESSAGE value="version 0.2 add server order" />
     <MESSAGE value="version 0.3 add form order" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.3 add form order" />
+    <MESSAGE value="version 0.4 add information product" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.4 add information product" />
   </component>
 </project>

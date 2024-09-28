@@ -10,8 +10,8 @@ const Card = ({id, name, price, gram, imageUrl}) => {
     const dispatch = useDispatch();
 
     return (
-        <article className={styles.card} onClick={() => dispatch(fetchGetProductInformation(id))}>
-            <div className={styles.card__header}>
+        <article className={styles.card}>
+            <div className={styles.card__header} onClick={() => dispatch(fetchGetProductInformation(id))}>
                 <img src={imageUrl} alt="card" className={styles.card__image}/>
             </div>
 
