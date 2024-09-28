@@ -1,12 +1,16 @@
 import styles from './Card.module.scss';
 import ButtonAdd from "../../UI/ButtonAdd/ButtonAdd.jsx";
+import {useDispatch} from "react-redux";
+import {fetchGetProductInformation} from "../../utils/Api.js";
 
 
 // eslint-disable-next-line react/prop-types
 const Card = ({id, name, price, gram, imageUrl}) => {
 
+    const dispatch = useDispatch();
+
     return (
-        <article className={styles.card}>
+        <article className={styles.card} onClick={() => dispatch(fetchGetProductInformation(id))}>
             <div className={styles.card__header}>
                 <img src={imageUrl} alt="card" className={styles.card__image}/>
             </div>
