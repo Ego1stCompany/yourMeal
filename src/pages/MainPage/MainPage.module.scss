@@ -8,6 +8,13 @@
   @include container;
 
   display: grid;
-  grid-template-columns: 300px 960px;
+  grid-template-columns: minmax(0, 300px) minmax(0,960px);
   gap: 30px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: minmax(0, 300px) minmax(0, 630px);
+  }
+}
+

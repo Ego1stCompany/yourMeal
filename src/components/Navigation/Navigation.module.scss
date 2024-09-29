@@ -2,9 +2,11 @@
 
 .navigation {
   @include container;
+  flex-wrap: wrap;
+
   display: flex;
   align-items: center;
-
   margin-top: 40px;
   gap: 18px;
 }
+

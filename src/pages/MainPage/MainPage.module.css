@@ -6,7 +6,6 @@
 }
 
 html {
-  scrollbar-width: none;
   background-color: #F9F9F9;
 }
 
@@ -106,8 +105,14 @@ legend {
   padding: 0 10px;
   max-width: 1230px;
   display: grid;
-  grid-template-columns: 300px 960px;
+  grid-template-columns: minmax(0, 300px) minmax(0, 960px);
   gap: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: minmax(0, 300px) minmax(0, 630px);
+  }
 }
 
 /*# sourceMappingURL=MainPage.module.css.map */

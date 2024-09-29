@@ -6,7 +6,6 @@
 }
 
 html {
-  scrollbar-width: none;
   background-color: #F9F9F9;
 }
 
@@ -101,6 +100,7 @@ legend {
   margin: 0 auto;
   padding: 0 10px;
   max-width: 1230px;
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   margin-top: 40px;

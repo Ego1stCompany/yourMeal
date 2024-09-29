@@ -6,7 +6,6 @@
 }
 
 html {
-  scrollbar-width: none;
   background-color: #F9F9F9;
 }
 
@@ -111,6 +110,12 @@ legend {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 410px;
   gap: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .layout__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*# sourceMappingURL=Layout.module.css.map */
